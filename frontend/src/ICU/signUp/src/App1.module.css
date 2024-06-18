@@ -1,0 +1,84 @@
+
+.section button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.section button:hover {
+  border-color: #646cff;
+}
+.section button:focus,
+.section button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+section.section{
+  border-radius: 0.3em;
+  background-color: aqua;
+}
+
+.section .passwordControl{
+  padding: 0%;
+}
+
+.section .passwordControl > div{
+  padding: 0;
+}
+
+.section h2{
+  margin-bottom: 0;
+}
+
+.section .control{
+  padding-bottom: 0%;
+}
+
+.section .control input{
+  width: 50%;
+  height: 1.8em;
+  font-size: 1.0em;
+  border-radius: 0.3em;
+  border-width: 0.1em;
+}
+
+.section p{
+  margin: 0;
+  color: red;
+  font-size: 0.5em;
+  padding-left: 16px;
+}
+
+.section .passwordControl .control input{
+  width: 70%;
+}
+
+section.section div{
+  padding: 1em;
+}
+
+.section .button-group{
+  text-align: right;
+}
+
+.section .button-group button{
+  margin: 1em;
+}
+
+section.section .passwordControl{
+  display: flex;
+}
+
+body.signUp {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}

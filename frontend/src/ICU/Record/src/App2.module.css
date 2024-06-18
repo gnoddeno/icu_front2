@@ -1,0 +1,45 @@
+section.section{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+section.section div{
+  text-align: center;
+}
+
+section.section div h1{
+  color: black;
+  font-size: 3em;
+  margin: 1em;
+}
+
+section.section div div{
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (min-width:850px) and (max-width:1100px) {
+  section.section div h1{
+    color: black;
+    font-size: 2.5em;
+    margin: 1em;
+  }
+}
+
+@media all and (min-width:650px) and (max-width:850px) {
+  section.section div h1{
+    color: black;
+    font-size: 2.0em;
+    margin: 1em;
+  }
+}
+
+@media all and (min-width:0px) and (max-width:650px) {
+  section.section div h1{
+    color: black;
+    font-size: 1.5em;
+    margin: 1em;
+  }
+}
+

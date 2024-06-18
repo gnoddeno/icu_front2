@@ -1,0 +1,76 @@
+ul.navBar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  place-items: center;
+  background-color: #EFF8FD;
+  width: 100%;
+  height: 4em;
+  display: flex;
+}
+
+ul.navBar li img{
+  margin-left: 1em;
+  width: 4em;
+  height: 4em;
+}
+
+ul.navBar li.photo{
+  width: 5em;
+}
+
+ul.navBar li.icu{
+  text-align: right;
+  margin-right: auto;
+}
+
+ul.navBar li.link{
+  text-align: right;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+ul.navBar li.select{
+  display: none;
+}
+
+ul.navBar li div{
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+ul.navBar li a{
+  color: black;
+  margin-right: 2em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media all and (min-width:0px) and (max-width:700px) {
+  ul.navBar li img{
+    margin-left: 1em;
+    width: 4em;
+    height: 4em;
+  }
+  
+  ul.navBar li.photo{
+    width: 5em;
+    height: 4em;
+  }
+
+  ul.navBar li.link{
+    display: none;
+  }
+  
+  ul.navBar li.select{
+    display: inline-block;
+  }
+
+  ul.navBar li.select select{
+    font-size: 1.5em;
+    border-width: 0em;
+    background: transparent;
+    text-align: center;
+  }
+}

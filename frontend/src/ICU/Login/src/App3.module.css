@@ -1,0 +1,146 @@
+
+
+.display h1 {
+  line-height: 1.1;
+  margin-bottom: 0.5em;
+  font-size: 3em;
+  color: blue;
+}
+
+.display {
+  width: 100dvw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.display .logIn{
+  border-radius: 1.0em;
+  text-align: center;
+  background-color: #eff8fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40em;
+  width: 40em;
+}
+
+.display .logIn .content div{
+  display: inline-block;
+}
+
+.main {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.display form {
+  margin-top: 1.5em;
+}
+
+.display input {
+  display: block;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  font-size: 1.2em;
+  height: 2.0em;
+  width: 20em;
+}
+
+.display button {
+  margin: 0.5em;
+  border-radius: 0.5em;
+  font-size: 1.2em;
+  height: 2.0em;
+  width: 20em;
+  font-family: inherit;
+  color: white;
+  background-color: rgb(66, 66, 249);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.display button:hover {
+  border-color: #646cff;
+}
+@media all and (min-width:650px) and (max-width:900px) {
+  .display .logIn{
+    border-radius: 1.0em;
+    text-align: center;
+    background-color: #eff8fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+    width: 30em;
+  }
+  .display h1 {
+    line-height: 1.1;
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+    color: blue;
+  }
+  .display input {
+    display: block;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    height: 2.0em;
+    width: 17em;
+  }
+  .display button {
+    margin: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    height: 2.0em;
+    width: 17em;
+    font-family: inherit;
+    color: white;
+    background-color: rgb(66, 66, 249);
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+}
+
+@media all and (min-width:300px) and (max-width:650px) {
+  .display .logIn{
+    border-radius: 1.0em;
+    text-align: center;
+    background-color: #eff8fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25em;
+    width: 25em;
+  }
+  .display h1 {
+    line-height: 1.1;
+    margin-bottom: 0.5em;
+    font-size: 2.0em;
+    color: blue;
+  }
+  .display input {
+    display: block;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1.0em;
+    height: 2.0em;
+    width: 13em;
+  }
+  .display button {
+    margin: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1.0em;
+    height: 2.0em;
+    width: 13em;
+    font-family: inherit;
+    color: white;
+    background-color: rgb(66, 66, 249);
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+}
+

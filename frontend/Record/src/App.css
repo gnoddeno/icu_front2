@@ -1,0 +1,85 @@
+ul.navBar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  place-items: center;
+  background-color: #EFF8FD;
+  width: 100%;
+  height: 4em
+}
+
+ul.navBar li img{
+  margin-left: 1em;
+  width: 4em;
+  height: 4em;
+}
+
+ul.navBar .icu{
+  width: 75%
+}
+
+ul.navBar li div{
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+ul.navBar li a{
+  color: black;
+  font-size: 1.0em;
+  margin: 0.5em;
+  text-decoration: none;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+section div{
+  text-align: center;
+}
+
+section div h1{
+  color: black;
+  font-size: 3em;
+  margin: 1em;
+}
+
+section div div{
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 50em;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(odd){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+table tr td button{
+  font-size: 1.0em;
+  color: white;
+  background-color: #5555EE;
+  border-radius: 0.5em;
+  cursor: pointer;
+  padding: 0.2em 0.5em
+}
